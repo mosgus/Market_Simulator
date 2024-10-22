@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="900bc8d7-59dd-41b3-92a3-f6a5d6942acd" name="Changes" comment="Added script for parsing csv data for prices and plotting the data. Also Added the main Market Simulator Script. NO DATA ADDED --&gt; Simulator does not funciton as is" />
+    <list default="true" id="900bc8d7-59dd-41b3-92a3-f6a5d6942acd" name="Changes" comment="Added orders directory with sample order files. ALSO Troubleshooting git commits with data sizes." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729617370298</updated>
-      <workItem from="1729617371317" duration="1322000" />
+      <workItem from="1729617371317" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="Added script for getting yfinance data">
       <option name="closed" value="true" />
@@ -81,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729618209733</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added orders directory with sample order files. ALSO Troubleshooting git commits with data sizes.">
+      <option name="closed" value="true" />
+      <created>1729618781042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729618781042</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added script for getting yfinance data" />
     <MESSAGE value="Added script for parsing csv data for prices and plotting the data. Also Added the main Market Simulator Script. NO DATA ADDED --&gt; Simulator does not funciton as is" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added script for parsing csv data for prices and plotting the data. Also Added the main Market Simulator Script. NO DATA ADDED --&gt; Simulator does not funciton as is" />
+    <MESSAGE value="Added orders directory with sample order files. ALSO Troubleshooting git commits with data sizes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added orders directory with sample order files. ALSO Troubleshooting git commits with data sizes." />
   </component>
 </project>
