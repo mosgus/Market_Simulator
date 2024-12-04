@@ -8,7 +8,7 @@ def symbol_to_path(year, symbol, base_dir=os.path.join(".", "data")):
     return os.path.join(base_dir, f"{symbol}.csv")
 
 def get_data_yf_symbol(symbol, start_date, end_date):
-    """Fetch stock data (adjusted close) for the given symbol from Yahoo Finance."""
+    """Fetch stock data for the given symbol from Yahoo Finance."""
     df = yf.download(
         symbol,
         interval="1d",

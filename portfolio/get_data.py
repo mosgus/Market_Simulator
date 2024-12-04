@@ -17,7 +17,7 @@ def get_data(symbols, dates, path="data"):
         # Construct the file path for the stock symbol CSV
         file_path = os.path.join(path, f"{symbol}.csv")
 
-        # Print the file path to ensure it's correct
+        # Print the file path
         #print(f"Looking for file: {file_path}")
 
         # Check if the file for the symbol exists
@@ -107,13 +107,12 @@ def plot_normalized_data(df, title="Normalized prices", xlabel="Date", ylabel="N
 
 # Example usage inside your main script
 if __name__ == "__main__":
+
     # Example for testing the function
     dates = pd.date_range('2011-01-01', '2011-12-31')
     symbols = ['GOOG', 'AAPL', 'GLD', 'XOM', 'SPY']  # Include SPY as a benchmark
-
     # Get the stock data for the given symbols
     df_prices = get_data(symbols, dates, path="../data")  # Modify the path to match your directory structure
-
     # Print first few rows to verify
     if not df_prices.empty:
         print(df_prices.head())
