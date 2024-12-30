@@ -30,6 +30,7 @@ This project implements a Market Simulator to evaluate stock portfolios based on
 ### How to Use
 
 1. Place order files in the `orders` directory and benchmark data in `data`.
-2. Run the script:
+2. Change the test_code calls in market_simulaor.py to call your desired order and data files
+3. Run the script:
    ```bash
    python market_simulator.py
